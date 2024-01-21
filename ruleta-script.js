@@ -63,8 +63,8 @@ function updateWinCounter() {
 }
 
 function removeBono() {
-    if (bonoCounter > 0) {
-        bonoCounter--;
+    if (bonoCounter >= 5) {
+        bonoCounter-=5;
         updateWinCounter();
         // Guarda la cantidad actualizada en el almacenamiento local
         localStorage.setItem('bonoCounter', bonoCounter.toString());
