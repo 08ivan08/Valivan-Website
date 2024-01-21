@@ -1,0 +1,85 @@
+/* ESTILO DE LOGIN */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6; /* Temática rosada */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% del alto de la ventana */
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.valivan-container {
+    text-align: center; /* Centra el texto y elementos internos */
+    margin-bottom: 20px; /* Añade un margen inferior */
+}
+
+.main-title {
+    font-size: 3em; /* Tamaño de la fuente más grande */
+    color: #ff66b2; /* Color rosado */
+    transition: color 0.3s ease; /* Transición de color de texto */
+    font-family: 'Arial', sans-serif; /* Estilo de fuente */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Añadir relleno */
+    background-color: rgba(255, 102, 178, 0.2); /* Color de fondo con transparencia */
+}
+
+.app-container {
+    max-width: 400px;
+    width: 100%; /* Ajuste del ancho */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(65, 117, 52, 0.384);
+    transition: background-color 0.3s ease; /* Transición de color de fondo */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+h2 {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Añade un margen inferior */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0e250c; /* Color del texto de las etiquetas */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff66b2; /* Color rosado */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición de color de fondo */
+}
+
+button:hover {
+    background-color: #ff3385; /* Color rosado más oscuro al pasar el mouse */
+}

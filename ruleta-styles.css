@@ -1,0 +1,88 @@
+/* ESTILO DE LA TRAGAMONEDAS */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.page-container {
+    text-align: center; /* Centra el texto y elementos internos */
+}
+
+.main-title {
+    font-size: 3em; /* Tamaño de la fuente más grande */
+    color: #ff66b2; /* Color rosado */
+    transition: color 0.3s ease; /* Transición de color de texto */
+    font-family: 'Arial', sans-serif; /* Estilo de fuente */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Añadir relleno */
+    background-color: rgba(255, 102, 178, 0.2); /* Color de fondo con transparencia */
+}
+
+.slot-machine-container {
+    position: relative;
+}
+
+.reels {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Centra los reels */
+}
+
+.reel {
+    width: 80px; /* Ajusta el tamaño según tu preferencia */
+    height: 150px; /* Ajusta el tamaño según tu preferencia */
+    background-color: #fff;
+    border: 2px solid #ff66b2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    transition: border-color 0.5s ease; /* Agrega la transición de cambio de color */
+}
+
+button {
+    background-color: #ff66b2;
+    margin-top: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Ajusta el estilo para el contador y el emoji de helado */
+.win-counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Mueve el contenido hacia la derecha */
+    position: absolute;
+    bottom: 20px;
+    right: 20px; /* Ajusta según sea necesario */
+}
+
+.win-counter {
+    font-size: 2em;
+    color: #ff66b2;
+    margin-right: -2px;
+}
+
+.ice-cream-emoji {
+    font-size: 2em;
+    margin-top: -10px; /* Ajusta según sea necesario */
+}
+
+/* Cambio de color en los tres reels */
+.reels .reel.green-border {
+    border-color: #66cc66 !important; /* Cambia el color del borde a verde */
+}

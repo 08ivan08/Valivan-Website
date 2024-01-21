@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6; /* Temática rosada */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* 100% del alto de la ventana */
+}
+
+.page-container {
+    text-align: center; /* Centra el texto y elementos internos */
+}
+
+.main-title {
+    font-size: 3em; /* Tamaño de la fuente más grande */
+    color: #ff66b2; /* Color rosado */
+    transition: color 0.3s ease; /* Transición de color de texto */
+    font-family: 'Arial', sans-serif; /* Estilo de fuente */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Añadir relleno */
+    background-color: rgba(255, 102, 178, 0.2); /* Color de fondo con transparencia */
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: calc(33.33% - 20px);
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease; /* Transición de color de fondo */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    color: #ff66b2; /* Color rosado */
+    transition: color 0.3s ease; /* Transición de color de texto */
+}
+
+.product p {
+    color: #333; /* Color del texto */
+}
+
+.product-link {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #66cc66; /* Color verde */
+    color: #fff; /* Color del texto del enlace */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transición de color de fondo */
+}
+
+.product-link:hover {
+    background-color: #4faa4f; /* Color verde más oscuro al pasar el mouse */
+}

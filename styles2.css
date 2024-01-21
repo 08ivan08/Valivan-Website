@@ -1,0 +1,59 @@
+/* ESTILO DE DATE */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6; /* Temática rosada */
+}
+
+.app-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease; /* Transición de color de fondo */
+}
+
+h1 {
+    color: #ff66b2; /* Color rosado */
+    transition: color 0.3s ease; /* Transición de color de texto */
+}
+
+#dates-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#dates-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.3s ease; /* Transición de opacidad */
+}
+
+#dates-list li input {
+    margin-right: 10px;
+    transition: transform 0.3s ease; /* Transición de transformación */
+}
+
+#dates-list li label {
+    text-decoration: none;
+    color: #333;
+    transition: text-decoration 0.3s ease; /* Transición de tachado de texto */
+}
+
+#dates-list li.completed label {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+#dates-list li.completed input {
+    transform: scale(1.2); /* Escalar un poco cuando está completado */
+}
+
+#dates-list li.completed {
+    opacity: 0.7; /* Reducir la opacidad cuando está completado */
+}

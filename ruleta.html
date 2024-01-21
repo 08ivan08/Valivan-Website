@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tragamonedas</title>
+    <link rel="stylesheet" href="ruleta-styles.css">
+</head>
+<body>
+    <div class="page-container">
+        <h1 class="main-title">Tragamonedas Valivan</h1>
+        <div class="slot-machine-container">
+            <div class="slot-machine">
+                <div class="reels" id="reels">
+                    <div class="reel" id="reel1"></div>
+                    <div class="reel" id="reel2"></div>
+                    <div class="reel" id="reel3"></div>
+                </div>
+                <button onclick="spinReels()">Girar</button>
+                <div class="win-counter-container">
+                    <span id="winCounter" class="win-counter">0</span>
+                    <span class="ice-cream-emoji">🍦</span>
+                </div>
+                <button onclick="removeBono()">Gastar Bono</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="ruleta-Script.js"></script>
+</body>
+</html>
