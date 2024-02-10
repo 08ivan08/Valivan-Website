@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
             {text: "21. Ir a un tour gastronómico", completed: false},
             {text: "22. Ir a un circo", completed: false},
             {text: "23. Ir a una fiesta", completed: false},
-            {text: "24. Tour del Cementerio", completed: false},
+            {text: "24. Ir a Zero Gravity", completed: false},
             {text: "25. Ir por un helado", completed: false},
             {text: "26. Ir a un cumpleaños", completed: false},
             {text: "27. Ir a los karts", completed: false},
